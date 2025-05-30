@@ -1,0 +1,11 @@
+﻿# Arquivos de cache do Python 
+__pycache__/ 
+*.pyc 
+*.pyo 
+*.pyd 
+# Pasta do VSCode (se você usa e não quer versionar as configurações locais) 
+.vscode/ 
+# Outras pastas de ambiente virtual comuns (se você usar no futuro) 
+venv/ 
+env/ 
+*.env
