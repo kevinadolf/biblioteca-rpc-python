@@ -38,21 +38,35 @@ O projeto está organizado da seguinte forma:
 
 biblioteca_rpc/
 ├── rpc/ # logica principal da biblioteca rpc
+
 │   ├── __init__.py # indica que 'rpc' eh um pacote python
+
 │   ├── rpc_binder.py # o binder (localizador de servicos)
+
 │   ├── rpc_client.py # logica do cliente rpc (usado pelo stub)
+
 │   ├── rpc_server.py # logica do servidor rpc
+
 │   ├── rpc_stub_generator.py # contem as classes de stub manuais
+
 │   └── serializer.py # para serializar/desserializar dados
+
 ├── interface/ # definicoes das interfaces dos servicos
+
 |   └── echo_service.py # exemplo de novo servico (mensagem ecoada)
+
 │   └── math_service.py # exemplo de interface (calculadora)
+
 ├── examples/ # exemplos de como usar a biblioteca
+
 │   ├── client_example.py # exemplo de cliente usando o math_service
+
 │   └── server_example.py # exemplo de servidor registrando o math_service
+
 └── README.md # manual de execucao e organizacao
 
-## como rodar o exemplo da calculadora
+
+## Como rodar o exemplo da calculadora
 Serão necessários 3 terminais diferentes.
 
 1.  **inicie o binder**:
