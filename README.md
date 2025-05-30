@@ -1,5 +1,4 @@
 # Biblioteca RPC em Python - Sistemas Distribuídos
-Aluno: Kevin Adolfo Carvalho Koberstain de Araujo - 202110036511
 
 ## Contexto
 Este projeto é uma implementação de uma biblioteca de RPC (Remote Procedure Call) em Python. O foco é permitir que funções de um serviço sejam chamadas remotamente, como se fossem locais. A biblioteca foi feita usando apenas recursos/bibliotecas padrão do Python, organizada de forma modular e usando POO.
